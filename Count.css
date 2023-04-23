@@ -1,0 +1,54 @@
+body{
+    background: rgb(255, 255, 255); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),  url("f1.jpg"); 
+    height:460px;
+    width: 460px;
+   
+    color:white;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+    z-index: -1;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 59px;
+    position: relative;
+    box-shadow:  -11px 21px 8px rgba(0,0,0,0.7);
+
+    /* filter: drop-shadow(-11px 31px 8px rgba(0,0,0,0.6)); */
+    /* filter: blur(2px); */
+
+    /* filter: drop-shadow(1px 1px 13px rgb(125, 125, 125));
+     */
+}
+
+.container:nth-last-of-type(1){
+    color: blue;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.ebuse{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: blue;
+    font-size: 50px;
+    font-weight: 800;
+   
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
